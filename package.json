@@ -1,0 +1,28 @@
+{
+  "name": "pokemon-list-example-tobyres",
+  "version": "1.0.0",
+  "description": "In this exercise, you have to implement a website that uses a RESTful Web API in the background. You have to create the website from scratch without any initial templates to build on. Feel free to use prior homeworks or samples from the course material as a starting point.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "com": "npm run build && node app.js",
+    "start": "concurrently \"tsc --watch app.ts\" \"browser-sync start --server --watch --files 'pokemonList.html' 'app.js'\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htl-perg-2018-19-4bhif/pokemon-list-example-Tobyres.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htl-perg-2018-19-4bhif/pokemon-list-example-Tobyres/issues"
+  },
+  "homepage": "https://github.com/htl-perg-2018-19-4bhif/pokemon-list-example-Tobyres#readme",
+  "devDependencies": {
+    "typescript": "^3.2.1",
+    "browser-sync": "^2.26.3"
+  },
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
